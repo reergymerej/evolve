@@ -1,0 +1,24 @@
+.dude {
+	display:inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.face {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	top:9px;
+	background-image: url(../img/face.png);
+	-webkit-mask-box-image: url(../img/face-mask.png);
+	z-index:13;
+}
+
+.active {
+	box-shadow:0px 0px 9px #666;
+}
+
+img {
+	display: block;
+}
